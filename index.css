@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+
+}
+.header{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.header h1{
+
+}
+.header i{
+    color: #003EB3;
+    font-size: 1.3em;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.main ul{
+    display: flex;
+    gap: 60px;
+
+}
+.main ul li{
+    list-style: none;
+
+}
+.main i{
+    gap: 2px;
+}
+.main ul li:hover{
+    color: #003EB3;
+    cursor: pointer;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 40px;
+    
+
+}
+.buton{
+    min-height: 34px;
+    width: 190px;
+    font-size: 1em;
+    color: white;
+    background-color:#003EB3 ;
+    border-radius: 10px;
+    border: none;
+}
+.btn i{
+    font-size: 1em;
+    color: white;
+}
+.section2{
+    margin-left: 90px;
+    margin-top: 50px;
+    display: flex;
+}
+.left-side h1{
+    font-size: 3em;
+}
+.left-side p{
+    margin-top: 10px;
+}
+.btn1{
+    margin-top: 40px;
+}
+.buton1{
+    min-height: 34px;
+    width: 190px;
+    font-size: 1em;
+    color: white;
+    background-color:#003EB3 ;
+    border-radius: 10px;
+    border: none;
+}
+.btn1 i{
+    font-size: 1em;
+    color: white;
+}
+
+.right-side img{
+    height: 450px;
+    padding-bottom: 10px;
+    mix-blend-mode: multiply;
+    
+}
+.section3{
+    background-color: #003EB3;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    line-height: 30px;
+}
+.since{
+    padding-top: 60px;
+    margin-left: 80px;
+}
+.since h3{
+    color: white;
+    padding-bottom: 5px;
+   
+}
+.since i{
+    padding-left: 4px;
+}
+.since p{
+    color: white;
+    margin-top: 10px;
+}
+.lines{
+
+}
+.line{
+    width: 1px; 
+    height: 150px; 
+    background-color: rgb(112, 107, 107); 
+    margin-left: 90px;
+    margin-bottom: -200px;
+    margin-top: 30px;
+}
+.line1{
+    width: 1px; 
+    height: 150px; 
+    background-color: rgb(112, 107, 107); 
+    margin-left: 90px;
+    margin-bottom: -200px;
+    margin-top: 30px;
+
+}
+.line2{
+    width: 2px; 
+    height: 150px; 
+    background-color: rgb(112, 107, 107); 
+    margin-left: 90px;
+    margin-bottom: -200px;
+    margin-top: 30px;
+}
+.section4{
+    padding-top: 80px;
+    padding-left: 80px;
+    display: flex;
+    grid: 2;
+    grid-template-rows: 1;
+
+}
+.LEFT-side h1{
+    font-size: 7em;
+    gap: 5px;
+
+}
+.LEFT-side p{
+    padding-top: 10px;
+}
+.s4right-side{
+    display: flex;
+    
+}
+.RIGHT-side1{
+    padding-left:80px ;
+    padding-right: 40px;
+}
+.side{
+    
+}
+.linee{
+    width: 220px; 
+    min-height: 1px; 
+    background-color: rgb(158, 152, 152); 
+    margin-left: 90px;
+    margin-bottom: -200px;
+    margin-top: 30px;
+}
+.tix h1{
+    padding-top: 220px;
+    padding-left:110px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.tix p{
+    margin-left: 110px;
+    padding-bottom: 20px;
+
+}
+.section5{
+    background-color:#85dcff;
+    height: 100vh;
+    width: 100%;
+    margin-top: 10%;
+}
+.top h1 {
+    text-align: center;
+    padding-top: 80px;
+
+}
+.top{
+    text-align: center;
+}
+.image{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.image img{
+    height: 400px;
+    width: 800px;
+    padding-bottom: 10px;
+}
+.image h1{
+    padding-bottom: 10px;
+}
+.section6{
+    margin-left: 150px;
+    margin-top: 190px;
+    display: flex;
+}
+.LEFT-SIDE h1{
+    font-size: 3em;
+    padding-bottom: 10px;
+}
+.LEFT-SIDE p{
+    padding-bottom: 29px;
+    
+}
+.pp{
+    font-weight: bold;
+}
+.pp i{
+    padding-top: 20px;
+    gap: 20px;
+}
+.RIGHT-SIDE{
+    margin-left: 160px;
+
+}
+.RIGHT-SIDE img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.section7{
+    margin-left: 140px;
+    margin-top: 40px;
+    display: flex;
+
+}
+.section7 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.midig{
+    margin-left: 220px;
+    margin-top:20px ;
+}
+.midig h1{
+    font-size: 3em;
+    padding-bottom: 10px;
+}
+
+.midig p{
+    padding-bottom: 29px;   
+}
+
+.bb {
+    font-weight: bold;
+}
+    
+.bb i{
+    padding-top: 20px;
+    gap: 20px;
+
+}
+.section8{
+    background-color: #0074f0;
+    height: 80vh;
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 400px;
+}
+.section8 h1{
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-style: unset;
+}
+.section8 p{
+    text-align: center;
+    color: white;
+
+}
+.btns{
+    margin-left: 390px;
+    margin-top: 40px;
+
+}
+.buton2{
+    min-height: 34px;
+    width: 190px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    gap: 20px;
+}
+.section9{
+    padding-top: 40px;
+}
+.section9 h1{
+    text-align: center;
+    font-size: 4em;
+    padding-bottom: 10px;
+}
+.section9 p{
+    text-align: center;
+
+}
+.botton{
+    text-align: center;
+    padding-top: 50px;
+}
+.person{
+    min-height: 34px;
+    width: 190px;
+    border: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.virtual{
+    min-height: 34px;
+    width: 190px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+.label{
+    padding-top: 4%;
+    gap: 20px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    border: 90px 120px;
+    width: 550px;
+    height: 350px;
+    padding-left: 9%;
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+label{
+    font-size: 2em;
+    font-weight: bold;
+}
+form{
+    gap: 20px;
+}
+.section10{
+    background-color: #85dcff;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 5%;
+}
+.section10 h1{
+    text-align: center;
+    font-size: 3em;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.section10 p{
+    text-align: center;
+  
+}
+.dectors i{
+    padding-left: 5%;
+    background-color: rgb(184, 179, 179);
+    height: 1px;
+    width: 2px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
